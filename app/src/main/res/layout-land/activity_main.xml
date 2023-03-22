@@ -34,6 +34,7 @@
         android:layout_width="612dp"
         android:layout_height="292dp"
         android:ems="10"
+        android:gravity="top"
         android:hint="Texto"
         android:inputType="textPersonName"
         android:textAlignment="viewStart"
