@@ -14,6 +14,7 @@
         android:ems="10"
         android:hint="E-Mail"
         android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etAssunto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +26,7 @@
         android:ems="10"
         android:hint="Assunto"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etTexto"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,5 +55,6 @@
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTexto" />
 </androidx.constraintlayout.widget.ConstraintLayout>
